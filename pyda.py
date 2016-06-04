@@ -33,8 +33,6 @@ class MyFrame(wx.Frame):
             print answer
         except:
             #wikipedia
-            input = inupt.split(' ')
-            input = " ".join(input[2:])
             print wikipedia.summary(input)
 
 
